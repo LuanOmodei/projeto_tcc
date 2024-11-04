@@ -17,15 +17,19 @@ Esta pasta contém o frontend do aplicativo de cardápio digital, desenvolvido c
 
 ```plaintext
 Frontend/
-├── src/
-│   ├── components/   # Componentes reutilizáveis
-│   ├── pages/         # Páginas do aplicativo
-│   ├── services/      # Comunicação com o backend via API
-│   └── styles/        # Estilos globais e personalizados
-├── assets/            # Imagens e ícones
-├── App.tsx            # Componente raiz do aplicativo
-├── app.json           # Configurações do Expo
-└── README.md          # Documentação do frontend
+├── android/                # Configurações específicas para Android
+├── ios/                    # Configurações específicas para iOS
+├── src/                    # Código-fonte do aplicativo
+│   ├── components/         # Componentes reutilizáveis
+│   ├── navigation/         # Navegação entre telas
+│   ├── pages/              # Páginas do aplicativo
+│   ├── screens/            # Telas principais
+│   ├── services/           # Comunicação com o backend via API
+├── App.tsx                 # Componente raiz do aplicativo
+├── tsconfig.json           # Configurações do TypeScript
+├── package.json            # Dependências e scripts do projeto
+└── README.md               # Documentação do frontend
+
 ```
 ## 🛠️ Como Executar o Frontend
 **Pré-requisitos**:
