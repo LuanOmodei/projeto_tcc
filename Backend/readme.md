@@ -43,14 +43,13 @@ cd Backend
 ```
 npm install
 ```
-3. Configure o arquivo .env com suas credenciais do PostgreSQL:
+3. Configure o arquivo db.js com suas credenciais do PostgreSQL:
 ```
-DB_HOST=localhost
-DB_PORT=5432
-DB_USER=seu_usuario
-DB_PASS=sua_senha
-DB_NAME=seu_banco_de_dados
-JWT_SECRET=sua_chave_secreta
+HOST=localhost
+PORT=5432
+USER=seu_usuario
+PASSWORD=sua_senha
+DATABASE=seu_banco_de_dados
 ```
 **Execução**
 
