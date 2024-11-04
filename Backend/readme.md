@@ -22,9 +22,8 @@ Backend/
 ├── controllers/      # Lógica de controle das APIs
 ├── models/           # Definição dos modelos de dados
 ├── routes/           # Rotas da API
-├── config/           # Configurações do banco de dados e variáveis de ambiente
-├── tests/            # Testes automatizados
-├── server.js         # Ponto de entrada da aplicação
+├── db.js             # Configuração Database
+├── index.js          # Ponto de entrada da aplicação
 └── README.md         # Documentação do backend
 ```
 ## 🛠️ Como Executar o Backend
